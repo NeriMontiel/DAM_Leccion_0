@@ -6,7 +6,7 @@
 
     <ContentPage.Resources>
         <ResourceDictionary>
-            <Leccion2:PersonaModel x:Key="persona" Nombre="Sofia" />
+            <Leccion2:PersonaModel x:Key="persona" Nombre="Sofia1" />
         </ResourceDictionary>
     </ContentPage.Resources>
 
