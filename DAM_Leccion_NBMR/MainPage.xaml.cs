@@ -28,7 +28,7 @@ namespace DAM_Leccion_NBMR
         {
             PersonaModel personaModel = new PersonaModel()
             {
-                Nombre = "Hola Aqui Estoy",
+                Nombre = "Hola Aqui Estoy :)",
             };
 
             BindingContext = personaModel.Nombre;
