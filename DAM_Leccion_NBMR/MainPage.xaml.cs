@@ -26,11 +26,24 @@ namespace DAM_Leccion_NBMR
 
         public void Ejecutar()
         {
-            PersonaModel personaModel = new PersonaModel();
-            personaModel.Nombre = "Hola aqui estoy";
-            txtNombre.Text = personaModel.Nombre;
-           
-            
+            PersonaModel personaModel = new PersonaModel()
+            {
+                Nombre = "Hola Aqui Estoy",
+            };
+
+            BindingContext = personaModel.Nombre;
+
+            //Binding personaBinding = new Binding(); //origen
+            //personaBinding.Path = "Nombre"; //ruta
+            //txtNombre.SetBinding(Entry.TextProperty, personaBinding); //Destino final
+
+
+
+            //PersonaModel personaModel = new PersonaModel();
+            //personaModel.Nombre = "Hola aqui estoy";
+            //txtNombre.Text = personaModel.Nombre;
+
+
             //txtNombre.Text = "HOLA ESTOY AQUI";
         }
 
